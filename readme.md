@@ -134,6 +134,12 @@ Construindo uma imagem do nginx com Vim através do Dockerfile
   docker build -t bborghif/nginx-com-vim:latest [DOCKERFILE-DIR] 
 ```
 
+Construindo uma imagem passando um Dockerfile específico
+
+```docker
+  docker build -t bborghif/nginx-com-vim:latest [DOCKERFILE-DIR] -f [DOCKERFILE-NAME]
+```
+
 Dica: remover todos containers por lote
 
 ```docker
