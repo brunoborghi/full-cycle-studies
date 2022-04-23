@@ -243,3 +243,7 @@ Lista os containers do docker-compose
 ```docker
    docker-compose ps
 ```
+
+## Autores
+
+- [@bborghif](https://www.github.com/brunoborghi)
