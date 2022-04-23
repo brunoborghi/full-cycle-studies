@@ -214,3 +214,32 @@ Acessar porta do docker host
 ```docker
    http://host.docker.internal:[HOST-PORT-EXPOSED]
 ```
+
+### Otimizando imagens
+
+- Gerar imagem para produção
+- Reduzir o risco de problemas com Segurança da Informação
+- Multi stage building: gerar a imagem e depois otimizar a imagem
+
+### Docker Compose
+
+- Manifesto YAML
+- Facilitar utilização dos containers
+
+Executa os comandos do docker-compose, fazendo build/rebuild das imagens
+
+```docker
+   docker-compose up -d --build
+```
+
+Para de executar os containers do docker-compose
+
+```docker
+   docker-compose down
+```
+
+Lista os containers do docker-compose
+
+```docker
+   docker-compose ps
+```
